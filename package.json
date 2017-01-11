@@ -1,0 +1,35 @@
+{
+  "name": "deepdancer-callgraph",
+  "version": "1.0.0",
+  "description": "Callgraphs from deepdancer containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt coffeelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/deepdancer/deepdancer-callgraph.git"
+  },
+  "keywords": [
+    "callgraph",
+    "deepdancer"
+  ],
+  "author": "Fräntz Miccoli <frantz.miccoli+npm@gmail.com> (http://thedarkside.frantzmiccoli.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepdancer/deepdancer-callgraph/issues"
+  },
+  "homepage": "https://github.com/deepdancer/deepdancer-callgraph#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.11.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-shell": "^2.1.0"
+  }
+}
