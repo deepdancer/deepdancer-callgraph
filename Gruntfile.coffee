@@ -16,10 +16,9 @@ module.exports = (grunt) ->
         command: 'node_modules/.bin/coffee --output lib src'
 
       publish:
-        command: 'cp package.json lib/deepdancer-darkmagic; ' +
-          'rm -rf lib/deepdancer-darkmagic/testUtilities; ' +
-          'cp README.md lib/deepdancer-darkmagic; ' +
-          '(cd lib/deepdancer-darkmagic; npm publish);'
+        command: 'cp package.json lib/deepdancer-callgraph; ' +
+          'cp README.md lib/deepdancer-callgraph; ' +
+          '(cd lib/deepdancer-callgraph; npm publish);'
 
 
   grunt.loadNpmTasks 'grunt-contrib-watch'
