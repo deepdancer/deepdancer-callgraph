@@ -2,7 +2,6 @@
   "name": "deepdancer-callgraph",
   "version": "1.0.0",
   "description": "Callgraphs from deepdancer containers",
-  "main": "index.js",
   "scripts": {
     "test": "grunt coffeelint"
   },
