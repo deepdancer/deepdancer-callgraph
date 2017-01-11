@@ -11,14 +11,6 @@ module.exports = (grunt) ->
       options:
         configFile: 'coffeelint.json'
 
-    mochaTest:
-      test:
-        options:
-          reporter: 'spec',
-          require: 'coffee-script/register'
-          bail: true
-        src: ['test/**/*.coffee']
-
     shell:
       coffee:
         command: 'node_modules/.bin/coffee --output lib src'
